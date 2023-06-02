@@ -1,0 +1,12 @@
+.parent {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.input {
+  width: 720px;
+  height: 40px;
+}
+.linkParent {
+  margin-top: 20px;
+}

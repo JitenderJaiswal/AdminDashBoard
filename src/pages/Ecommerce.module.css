@@ -1,0 +1,109 @@
+.parent {
+  margin-top: 10px;
+}
+.scorecardsParent {
+  display: flex;
+  margin-left: 50px;
+}
+.scorecardsParentOne {
+  width: 250px;
+  border: 1px solid white;
+  background: rgba(54, 162, 235, 0.2);
+  border-radius: 10px;
+}
+.earningsText {
+  margin-right: 50px;
+  color: grey;
+}
+.earningsDollarText {
+  color: black;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.dollarSymbol {
+  border: 1px solid rgb(16, 173, 173, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(16, 173, 173, 1);
+}
+.earningDataParent {
+  display: flex;
+  margin-left: 20px;
+}
+.earningDataChild {
+  width: 180px;
+  margin-right: 10px;
+  border: 1px solid rgba(153, 102, 255, 0.2);
+  background: rgba(153, 102, 255, 0.2);
+  border-radius: 10px;
+}
+.earningDataChildIcon {
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid rgb(16, 173, 173, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(16, 173, 173, 1);
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.earningDataChildAmount {
+  margin-left: 10px;
+  color: black;
+  font-size: 25px;
+}
+.earningDataChildPerc {
+  margin-left: 10px;
+}
+.earningDataChildTitle {
+  margin-left: 10px;
+  color: grey;
+}
+.chartParent {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.chartChildOne {
+  border: 1px solid white;
+  width: 640px;
+  margin-right: 50px;
+  background: white;
+  border-radius: 10px;
+  height: 400px;
+}
+.BarAndLineChartParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lineChart {
+  height: 200px;
+  width: 400px;
+}
+.StackedBarChart {
+  width: 400px;
+}
+.chartChildTwo {
+  border: 1px solid white;
+  width: 335px;
+  background: white;
+  border-radius: 10px;
+  height: 400px;
+}
+.verticalBarChart {
+  height: 160px;
+}
+.pieChart {
+  margin-top: 10px;
+  height: 230px;
+  margin-left: 40px;
+}
+.textParent {
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  display: flex;
+}

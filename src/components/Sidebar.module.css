@@ -1,0 +1,25 @@
+.parent {
+  border-right: 1px solid #d1cdcd;
+  width: 200px;
+  height: 610px;
+}
+
+.hedingText {
+  margin-top: 10px;
+  color: #433395;
+  font-size: 30px;
+}
+.linksParent {
+  margin-top: 20px;
+}
+.linkParent {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.linkName {
+  margin-left: 15px;
+  color: #5a4e4e;
+}
+.titleText {
+  color: grey;
+}
