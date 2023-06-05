@@ -2,20 +2,15 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar, Sidebar } from "./components";
 import { Ecommerce, Customers } from "./pages";
+import style from "./App.module.css";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <div style={{ display: "flex" }}>
+        <div className={style.parent}>
           <Sidebar />
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              background: "#f5f5f5",
-            }}
-          >
+          <div className={style.navbar}>
             <Navbar />
 
             <div>
